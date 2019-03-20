@@ -1,0 +1,13 @@
+<div>
+
+  <p *ngIf="!hasCollectibles">Sie haben noch keine Collectibles</p>
+
+  <div class="collectible-container" *ngIf="hasCollectibles">
+    <div *ngFor="let collectible of collectibles" [routerLink]="['/detail', collectible.id]" class="flex-item">
+      <app-collectible-item [collectible]="collectible"></app-collectible-item>
+    </div>
+  </div>
+
+
+  <button routerLink="/create" mat-flat-button color="primary"><mat-icon>add</mat-icon>Collectible hinzufügen</button>
+</div>

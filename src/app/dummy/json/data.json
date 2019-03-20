@@ -1,0 +1,40 @@
+[
+  {
+    "id":1,
+  "name":"Ein Gedicht",
+  "hash":"01_sample.txt",
+    "mediaType":2
+  },
+  {
+    "id":2,
+    "name":"Morgengruss",
+    "hash":"02_sample.mp3",
+    "mediaType":0
+  },
+  {
+    "id":3,
+    "name":"Love you",
+    "hash":"03_sample.gif",
+    "mediaType":3
+  },
+  {
+    "id":4,
+    "name":"selfie",
+    "hash":"04_sample.png",
+    "mediaType":3
+  },
+  {
+    "id":5,
+    "name":"waterfalls",
+    "hash":"05_sample.mp4",
+    "mediaType":1
+  },
+  {
+    "id":6,
+    "name":"kochrezept",
+    "hash":"06_sample.txt",
+    "mediaType":2
+  }
+
+
+]

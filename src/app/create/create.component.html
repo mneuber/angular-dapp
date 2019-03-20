@@ -1,0 +1,18 @@
+
+<p class="text-center">Welche Art von Collectible wollen Sie erzeugen?</p>
+<div class="container">
+<a routerLink="./audio"><mat-icon>micro</mat-icon></a>
+<a routerLink="./video"><mat-icon>videocam</mat-icon></a>
+<a routerLink="./text"><mat-icon>text_format</mat-icon></a>
+
+</div>
+<div class="text-center">
+<router-outlet></router-outlet>
+  <div class="name">
+    <p>Der Name für das Collectible</p>
+  <input type="text">
+  </div>
+  <div class="submit">
+    <button mat-flat-button color="primary"><mat-icon>add</mat-icon>Collectible erzeugen</button>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+.container {
+
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.container mat-icon {
+
+  font-size: 5em;
+  color:black;
+
+}
+
+.create-container {
+
+  margin-top: 5em;
+  text-align: center;
+}
+
+.name {
+
+  margin-top: 2em;
+
+}
+
+.submit {
+  margin-top: 2em;
+}

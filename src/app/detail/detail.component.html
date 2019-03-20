@@ -1,0 +1,11 @@
+<p>
+  <ng-container [ngSwitch]="collectible?.mediaType">
+    <app-audio [collectible]="collectible" *ngSwitchCase="0"></app-audio>
+    <app-video [collectible]="collectible" *ngSwitchCase="1"></app-video>
+    <app-text [collectible]="collectible" *ngSwitchCase="2"></app-text>
+    <app-image [collectible]="collectible" *ngSwitchCase="3"></app-image>
+<!--
+    <app-unknown [collectible]="collectible" *ngSwitchCase="4"></app-unknown>
+-->
+    </ng-container>
+</p>

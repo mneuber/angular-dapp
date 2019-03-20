@@ -1,0 +1,8 @@
+<div>
+  <label for="upload">Upload file</label>
+  <input id="upload" type="file" (change)="onFileSelected($event)">
+  <button mat-raised-button (click)="onCreateCollectible()">Collectible hinzufügen</button>
+  <input [ngModel]="collectibleName" type="text">
+  <p>{{errorMessage}}</p>
+  <p>{{successMessage}}</p>
+</div>
