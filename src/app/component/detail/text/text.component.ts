@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {CollectibleListItem} from '../../models/collectibles/CollectibleListItem';
+import {CollectibleListItem} from '../../../models/collectibles/CollectibleListItem';
 import {DomSanitizer} from '@angular/platform-browser';
 
 @Component({

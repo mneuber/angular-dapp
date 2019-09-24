@@ -13,24 +13,24 @@ import {
   MatInputModule,
   MatToolbarModule
 } from '@angular/material';
-import { UploadFileComponent } from './upload-file/upload-file.component';
-import { OwnCollectiblesComponent } from './own-collectibles/own-collectibles.component';
-import { CollectibleItemComponent } from './own-collectibles/collectible-item/collectible-item.component';
+import { UploadFileComponent } from './component/upload-file/upload-file.component';
+import { OwnCollectiblesComponent } from './component/own-collectibles/own-collectibles.component';
+import { CollectibleItemComponent } from './component/own-collectibles/collectible-item/collectible-item.component';
 import { ContainerComponent } from './container/container.component';
-import { StartComponent } from './start/start.component';
-import { DetailComponent } from './detail/detail.component';
-import { CreateComponent } from './create/create.component';
+import { StartComponent } from './component/start/start.component';
+import { DetailComponent } from './component/detail/detail.component';
+import { CreateComponent } from './component/create/create.component';
 import {AppRoutingModule} from './app-routing/app-routing.module';
-import { TextComponent } from './detail/text/text.component';
-import { AudioComponent } from './detail/audio/audio.component';
-import { VideoComponent } from './detail/video/video.component';
-import { ImageComponent } from './detail/image/image.component';
-import { UnknownComponent } from './detail/unknown/unknown.component';
+import { TextComponent } from './component/detail/text/text.component';
+import { AudioComponent } from './component/detail/audio/audio.component';
+import { VideoComponent } from './component/detail/video/video.component';
+import { ImageComponent } from './component/detail/image/image.component';
+import { UnknownComponent } from './component/detail/unknown/unknown.component';
 import { SafePipe } from './safe.pipe';
-import { CreateAudioComponent } from './create/create-audio/create-audio.component';
-import { CreateVideoComponent } from './create/create-video/create-video.component';
-import { CreateTextComponent } from './create/create-text/create-text.component';
-import { CreateUploadComponent } from './create/create-upload/create-upload.component';
+import { CreateAudioComponent } from './component/create/create-audio/create-audio.component';
+import { CreateVideoComponent } from './component/create/create-video/create-video.component';
+import { CreateTextComponent } from './component/create/create-text/create-text.component';
+import { CreateUploadComponent } from './component/create/create-upload/create-upload.component';
 
 
 

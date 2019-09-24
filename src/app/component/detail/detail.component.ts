@@ -1,9 +1,9 @@
 import {Component, OnInit} from '@angular/core';
 import {Observable} from 'rxjs/internal/Observable';
 import {ActivatedRoute, ParamMap} from '@angular/router';
-import {CollectibleListItem} from '../models/collectibles/CollectibleListItem';
-import {IpfsFakeService} from '../service/ipfs-fake.service';
-import {FakeCollectibleService} from '../service/fake-collectible.service';
+import {CollectibleListItem} from '../../models/collectibles/CollectibleListItem';
+import {IpfsFakeService} from '../../service/ipfs-fake.service';
+import {FakeCollectibleService} from '../../service/fake-collectible.service';
 
 @Component({
   selector: 'app-detail',

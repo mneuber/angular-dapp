@@ -1,6 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {CollectibleListItem} from '../../models/collectibles/CollectibleListItem';
-import {MediaIcons} from '../../enum/media-type.enum';
+import {CollectibleListItem} from '../../../models/collectibles/CollectibleListItem';
+import {MediaIcons} from '../../../enum/media-type.enum';
 
 @Component({
   selector: 'app-collectible-item',

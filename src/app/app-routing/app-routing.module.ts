@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {StartComponent} from '../start/start.component';
-import {DetailComponent} from '../detail/detail.component';
-import {CreateComponent} from '../create/create.component';
+import {StartComponent} from '../component/start/start.component';
+import {DetailComponent} from '../component/detail/detail.component';
+import {CreateComponent} from '../component/create/create.component';
 import {ContractReadyResolver} from '../resolver/ContractReadyResolver';
 import {CollectibleService} from '../service/collectible.service';
-import {CreateAudioComponent} from '../create/create-audio/create-audio.component';
-import {CreateVideoComponent} from '../create/create-video/create-video.component';
-import {CreateTextComponent} from '../create/create-text/create-text.component';
+import {CreateAudioComponent} from '../component/create/create-audio/create-audio.component';
+import {CreateVideoComponent} from '../component/create/create-video/create-video.component';
+import {CreateTextComponent} from '../component/create/create-text/create-text.component';
 
 const routes: Routes = [
   { path: 'start', component: StartComponent,
