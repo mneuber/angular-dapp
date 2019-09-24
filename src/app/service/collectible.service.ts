@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import {Web3Service} from './web3.service';
-import CollectibeABI from './../../build/contracts/CollectibleFactory.json';
-import {parseCollectible} from './factory/parseCollectible';
-import {CollectibleListItem} from './models/collectibles/CollectibleListItem';
-import fakeCollectibles from './dummy/json/data.json';
+import CollectibeABI from '../../../build/contracts/CollectibleFactory.json';
+import {parseCollectible} from '../factory/parseCollectible';
+import {CollectibleListItem} from '../models/collectibles/CollectibleListItem';
+import fakeCollectibles from '../dummy/json/data.json';
 
 @Injectable({
   providedIn: 'root'

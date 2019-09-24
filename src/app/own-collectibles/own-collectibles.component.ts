@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {CollectibleListItem} from '../models/collectibles/CollectibleListItem';
-import {FakeCollectibleService} from '../fake-collectible.service';
+import {FakeCollectibleService} from '../service/fake-collectible.service';
 
 @Component({
   selector: 'app-own-collectibles',

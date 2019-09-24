@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {IpfsServiceService} from '../ipfs-service.service';
-import {CollectibleService} from '../collectible.service';
+import {IpfsServiceService} from '../service/ipfs-service.service';
+import {CollectibleService} from '../service/collectible.service';
 
 
 @Component({

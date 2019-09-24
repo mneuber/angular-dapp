@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import {parseCollectible} from './factory/parseCollectible';
-import fakeCollectibles from './dummy/json/data.json';
-import {CollectibleListItem} from './models/collectibles/CollectibleListItem';
+import {parseCollectible} from '../factory/parseCollectible';
+import fakeCollectibles from '../dummy/json/data.json';
+import {CollectibleListItem} from '../models/collectibles/CollectibleListItem';
 
 
 @Injectable({

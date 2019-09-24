@@ -1,7 +1,7 @@
 import {Resolve} from '@angular/router';
-import {CollectibleService} from '../collectible.service';
+import {CollectibleService} from '../service/collectible.service';
 import {Injectable} from '@angular/core';
-import {FakeCollectibleService} from '../fake-collectible.service';
+import {FakeCollectibleService} from '../service/fake-collectible.service';
 
 @Injectable()
 export class ContractReadyResolver implements Resolve<boolean> {

@@ -4,7 +4,7 @@ import {StartComponent} from '../start/start.component';
 import {DetailComponent} from '../detail/detail.component';
 import {CreateComponent} from '../create/create.component';
 import {ContractReadyResolver} from '../resolver/ContractReadyResolver';
-import {CollectibleService} from '../collectible.service';
+import {CollectibleService} from '../service/collectible.service';
 import {CreateAudioComponent} from '../create/create-audio/create-audio.component';
 import {CreateVideoComponent} from '../create/create-video/create-video.component';
 import {CreateTextComponent} from '../create/create-text/create-text.component';
