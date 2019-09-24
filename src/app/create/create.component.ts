@@ -35,7 +35,7 @@ export class CreateComponent implements OnInit {
     // 4. add to blockchain
 
     if (!this.selectedFile) {
-      this.errorMessage = 'Keine Datai hochgladen';
+      this.errorMessage = 'Keine Datai hochgeladen';
       return;
     }
 

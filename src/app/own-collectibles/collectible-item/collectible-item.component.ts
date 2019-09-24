@@ -18,9 +18,6 @@ export class CollectibleItemComponent implements OnInit {
   constructor() { }
 
 
-
-
-
   ngOnInit() {
 
     this.iconName = MediaIcons.get(this.collectible.mediaType);

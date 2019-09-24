@@ -10,6 +10,7 @@ declare let window: any;
 @Injectable({
   providedIn: 'root'
 })
+
 export class Web3Service {
   private web3: any;
   private accounts: string[];

@@ -23,7 +23,8 @@ const routes: Routes = [
     resolve: {
       contractReady: ContractReadyResolver
     },
-  children : [  { path: 'audio',   component: CreateAudioComponent,
+  children : [
+    { path: 'audio',   component: CreateAudioComponent,
     resolve: {
       contractReady: ContractReadyResolver
     }},
